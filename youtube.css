@@ -331,13 +331,13 @@ iframe{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-color:  rgb(82, 82, 82);
+    background-color: #575859;
 }
 .later img,.add-to-queque img {
     width: 20px;
 }
 .later:hover,.add-to-queque:hover{
-    background-color:#a0a0a0;
+    background-color: #615d5d;
 }
 .hoverer{
     opacity: 0;
@@ -402,6 +402,9 @@ iframe{
     width: 180px;
     height: 409.85px;
 }
+.Shortvideos iframe{
+    border-radius: 10px;
+}
 .short-names{
     display: flex;
     flex-direction: column;
@@ -451,7 +454,7 @@ iframe{
 .lowerButton:hover button{
     display: block;
     border: none;
-    background-color: rgb(129, 128, 128);
+    background-color: darkgray;
 }
 .lowerButton button i{
     color: #fff;
