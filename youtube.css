@@ -249,9 +249,11 @@ input[type="search"]{
     left: 72px;
     top: 56px;
     width: 1199px;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     gap: 11px;
     padding: 20px;
 }
@@ -509,9 +511,10 @@ iframe{
     text-decoration: none;
 }
 .copyright{
-    width: 100%;
+    width: 1119px;
     color: #fff;
     text-align: center;
+    grid-column: 1/4;
 }
  
 
